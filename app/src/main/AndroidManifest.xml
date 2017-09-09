@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chandan.aktu_sample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/syal"
+        android:label="AKTU Syllabus"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.chandan.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.chandan.Branch"
+            android:label="Select Your Branch"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name="com.example.chandan.Branch3"
+            android:label="Select Your Branch" />
+        <activity android:name="com.example.chandan.Branch4"
+            android:label="Select Your Branch"/>
+
+        <activity android:name="com.example.chandan.cs_sem3s" android:label="CSE Second Year "/>
+        <activity android:name="com.example.chandan.it2"
+            android:label="ITE Second Year "/>
+        <activity android:name="com.example.chandan.me2"
+            android:label="MEE Second Year "/>
+        <activity android:name="com.example.chandan.cv2"
+            android:label="CVE Second Year "/>
+        <activity android:name="com.example.chandan.cv3"
+            android:label="CVE Third Year "/>
+        <activity android:name="com.example.chandan.el2"
+            android:label="ELE Second Year "/>
+        <activity android:name="com.example.chandan.me3"
+            android:label="ME Third Year "/>
+        <activity android:name="com.example.chandan.cs3" android:label="CSE Third Year "/>
+        <activity android:name="com.example.chandan.it3" android:label="ITE Third Year "/>
+        <activity android:name="com.example.chandan.year1" android:label="First Year "/>
+        <activity android:name="com.example.chandan.el3" android:label="ELE Third Year "/>
+        <activity android:name="com.example.chandan.Main2Activity"
+            android:label="Select Your Year"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

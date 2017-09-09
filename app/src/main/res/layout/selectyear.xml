@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Year"
+        android:textColor="#ffffff"
+        android:onClick="first"
+        android:layout_weight="1"
+        android:paddingTop="50dp"
+        android:paddingLeft="100dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#00BCD4"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Year"
+        android:textColor="#ffffff"
+        android:onClick="second"
+        android:layout_weight="1"
+        android:paddingTop="50dp"
+        android:paddingLeft="100dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#00ACC1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third Year"
+        android:textColor="#ffffff"
+        android:onClick="third"
+        android:layout_weight="1"
+        android:paddingTop="50dp"
+        android:paddingLeft="100dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#0097A7"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Year"
+        android:textColor="#FFFFFF"
+        android:onClick="finalyear"
+        android:layout_weight="1"
+        android:paddingTop="50dp"
+        android:paddingLeft="110dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#00838F"/>
+
+</LinearLayout>
